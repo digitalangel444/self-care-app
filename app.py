@@ -10,10 +10,16 @@ def set_bg():
         background-size: cover;
     }}
     [data-testid="stSidebar"] {{
-        background-color: rgba(40, 40, 40, 0.95) !important;
+        background-color: rgba(25, 25, 25, 0.98) !important;
         border-radius: 10px;
         padding: 10px;
+        border: 2px solid #4CAF50 !important;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5) !important;
         color: white !important;
+    }}
+    [data-testid="stSidebar"] * {{
+        color: white !important;
+        text-shadow: 1px 1px 2px #000000 !important;
     }}
     .main-container {{
         background-color: rgba(0, 0, 0, 0.6);
